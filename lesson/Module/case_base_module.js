@@ -53,3 +53,61 @@ var testModule = (function() {
 // 无法直接修改 counter, counter称为存在有一个隔离空间的变量 - "私有变量"
 testModule.incrementCounter().incrementCounter().resetCounter();
 
+
+// 案例
+// 1. 私有属性与公有属性
+// 2. 私有属性无法直接在外部直接修改
+
+var basketModule = (function () {
+  // 私有属性
+  var basket = [];
+  // 私有方法
+  function doSomethingPrivate () {
+    // coding
+  }
+  // 暴露公有对象
+  return {
+
+    // 添加商品
+    addItem:function (values) {
+      basket.push(values);
+    },
+    // 获取购物车数量
+    getItemCount: function () {
+      return basket.length;
+    },
+    // 私有函数的公有形式别名
+    doSomething: doSomethingPrivate,
+    // 获取总价
+    getTotalPrice: function  () {
+      var itemCount = this.getItemCount(),
+      total = 0;
+
+      while (itemCount--) {
+        total += basket[itemCount].price;
+      }
+
+      return total;
+    }
+
+  };
+})();
+
+// 匿名函数自执行,返回公有对象
+
+// 添加两件商品
+basketModule.addItem({
+  "item":"bread",
+  "price":0.5
+});
+basketModule.addItem({
+  "item":"butter",
+  "price":0.3
+});
+
+console.log('商品数量:' + basketModule.getItemCount()); // 2
+console.log('商品总价:' + basketModule.getTotalPrice()); // 0.8
+
+
+// 无法获取 basket
+console.log('获取basket:' + basketModule.basket); // undefined
