@@ -62,4 +62,5 @@ javascript经典与现代的模式
 
 更松散的耦合,与Observer的差异,应用场景。
 
+
 ### javascript模式案例
