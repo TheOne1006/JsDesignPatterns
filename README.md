@@ -62,5 +62,10 @@ javascript经典与现代的模式
 
 更松散的耦合,与Observer的差异,应用场景。
 
+### Mediator (中介者模式)
+
+Mediator 与 Observer 的差异
+Mediator 与 Facade 的差异
+
 
 ### javascript模式案例
