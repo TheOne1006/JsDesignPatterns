@@ -25,7 +25,7 @@ JavaScript设计模式学习
     - 包括: Constructor(构造器),Factory(工厂),Abstract(抽象),Prototype(原型),Singleton(单例)和Builder(生成器)
 2. 结构型设计模式
     - 用于找出不同对象之间建立关系的简单方法,这种模式有助于确保系统某一部分变化时,系统的整体结构不需要同时改变.同时对于不适应的某一特定目的二改变系统的部分,这种模式也能够帮助他们重组
-    - 包括: Decorator(装饰者),Facade(外观),Flyweight(享元),Adapter(适配器)和Proxy(代理)
+    - 包括: Decorator(装饰者),Facade(外观),Flyweight(享元),Adapter(适配器),Mixin(混入)和Proxy(代理)
 3. 行为设计模式
     - 专注于改善或者简化系统中不同对象之间的通信
     - 包括:Iterator(迭代器),Mediator(中介者),Observer(观察者),Visitor(访问者)

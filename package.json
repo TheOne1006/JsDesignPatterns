@@ -1,0 +1,22 @@
+{
+  "name": "jsdes",
+  "version": "1.0.0",
+  "description": "JavaScript设计模式学习 ----------------------",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheOne1006/JsDesignPatterns.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheOne1006/JsDesignPatterns/issues"
+  },
+  "homepage": "https://github.com/TheOne1006/JsDesignPatterns#readme",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
+}
