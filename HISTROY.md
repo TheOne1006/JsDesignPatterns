@@ -7,3 +7,11 @@
 #### 20151031 Single
 
 #### 20151101 Observer And Publish/Subscribe
+
+#### 20151114 Mediator And Prototype
+
+#### 20151115 Commond And Facade
+
+
+
+

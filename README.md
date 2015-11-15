@@ -67,5 +67,23 @@ javascript经典与现代的模式
 Mediator 与 Observer 的差异
 Mediator 与 Facade 的差异
 
+### Prototype (原型模式)
+Prototype
+
+
+### Commond (命令)模式
+为我们提供了一种分离职责的手段，这些职责包括从执行命令的任意地方发布命令以及将该职责转而委托给不同的对象。
+
+
+### Facade (外观)模式
+
+### Factory (工厂)模式
+涉及创建对象的概念。其分类不同于其他模式的地方在于__它不显示的要求使用一个构造函数__。而Factory可以提供一个通用的接口来创建对象
+
+AbstractFactory (抽象工厂)模式
+
+### Mixin 模式
+
+
 
 ### javascript模式案例
